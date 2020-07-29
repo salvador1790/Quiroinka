@@ -6,6 +6,7 @@ $(document).ready(function(){
         let name = $(".name").val();
         let email = $(".email").val();
         let message = $("#message").val();
+        let phone = $(".number").val();
         let statusMessage = $(".status");
         statusMessage.empty();
 
@@ -24,6 +25,11 @@ $(document).ready(function(){
         if(message.length <=0){
             event.preventDefault();
             statusMessage.append('<div>No hay mensaje Escrito</div>');
+        }
+
+        if(phone.length <=0){
+            event.preventDefault();
+            statusMessage.append('<div>No hay numero de Telefono</div>');
         }
     })
 })
