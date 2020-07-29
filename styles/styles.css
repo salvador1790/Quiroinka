@@ -1,0 +1,238 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.navbar{
+    height: 50px;
+    background-color: #e1ad01;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navContent{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 800px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+#navLogo{
+    margin-right: 160px;
+}
+
+#header{
+    background-image: url("./images/photo-of-machu-picchu-2929906.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+#logoCont{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #e1ad01;
+}
+
+#aboutSection{
+    background-color: #e6ab00;
+    height: 200px;
+    padding: 50px 80px;
+}
+
+#image2{
+    height: 400px;
+    background-image: url("./images/inca-tocapu-for-fun.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.question1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#aboutQuiro{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    margin-top: 20px;
+}
+
+
+#aboutSection p{
+    margin-top: 0;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#questions{
+    height: 800px;
+}
+
+#questions h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#introQuestions{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 800px;
+    justify-content: center;
+}
+
+#introQuestions h3{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 100px;
+    height: 50px;
+    margin-top: 65px;
+}
+
+.questionBox{
+    height: 220px;
+    width: 440px;
+    background-color: #d3d3d3;
+    margin-right: 10px;
+}
+
+.questionCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.questionBox p{
+    width: 400px;
+    text-align: start;
+    margin-left: 10px;
+    color: #5a5a5a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.questionBox h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #1f1f1f;
+    margin-left: 10px;
+}
+
+.callBtn{
+    background-color: #e6ab00;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#terapias{
+ height: 640px;
+ background-color: #E2D6BE;
+ padding-top: 20px;
+}
+
+#terapias  h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+#videoCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#youtubePromo{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#youtubeIcon{
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+
+#gallery{
+    margin: 20px 60px;
+    height: 950px;
+    padding: 20px;
+    text-align: center;
+}
+
+#gallery  h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+#gallery img{
+    height: 200px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+#gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+#contact{
+    height: 500px;
+    background-image: url("./images/brown-plant-and-flowers-1924867.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+#contact p{
+    text-align: center;
+    color: #E2D6BE;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#titleContact{
+    margin-bottom: 0;
+}
+
+#underscore{
+    margin-top: 0;
+}
+
+label, input, textarea{
+    display: block;
+}
