@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="./main.js"></script>
@@ -19,10 +20,10 @@
         <div class="navContent">
             <span id="navLogo">QUIROINKA OMAR</span>
             <div class="navLinks">
-                <a href="">Quiropraxia Inka</a>
-                <a href="">Preguntas</a>
-                <a href="">Ponte en Contacto</a>
-                <a href="">Formulario</a>
+                <a href="#aboutSection">Quiropraxia Inka</a>
+                <a href="#questions">Preguntas</a>
+                <a href="#gallery">Fotos</a>
+                <a href="#contact">Contacto</a>
             </div>
         </div>
     </nav>
@@ -30,7 +31,6 @@
         <div id="logoCont">
             <span id="logo">QUIROINKA OMAR</span>
         </div>
-        <p>714.371.3636</p>
     </div>
 
     <section id="aboutSection">
@@ -45,11 +45,29 @@
         </div>
     </section>
 
-    <div id="image2"></div>
+    <div id="image2">
+        <div id="benefits">
+            <h1>Beneficios</h1>
+            <div id="flexCont">
+            <div>
+            <img class="benefitIcons" src="./styles/images/fast.png" alt="">
+            <p>Mobilidad</p>
+        </div>
+        <div>
+            <img class="benefitIcons" src="./styles/images/sleep.png" alt="">
+            <p>Dormir Mejor</p>
+        </div>
+        <div>
+            <img class="benefitIcons" src="./styles/images/wellbeing.png" alt="">
+            <p>Bienestar</p>
+        </div>
+    </div>
+        </div>
+    </div>
 
     <section id="questions">
         <div id="introQuestions">
-            <h1>Preguntas.</h1>
+            <h1  style="color:#e1ad01">Preguntas.</h1>
             <h3>Tienes preguntas? Aqui hay respuestas para preguntas frequentes!
                 Si no ves tu pregunta, te puedes poner en contacto.
             </h3>
@@ -60,8 +78,7 @@
                 <p>La Quiropraxia Inka puede tratar varios padecimientos los que incluyen:
                     la escoliosis, hernias discales, listésis, ciaticas, lumbalgias, dorsalgias, cervicalgias,
                     braquialgias, contracturas dolorosas, etc., y sus efectos nocivos sobre el organismo pueden ser
-                    solucionados aun desde la primera sesión, sin dolor, sin importar edad, o problemas
-                    osteodegenerativos.
+                    solucionados aun desde la primera sesión.
                 </p>
             </div>
 
@@ -79,20 +96,20 @@
         <div class="questionCont">
             <div class="questionBox">
                 <h2>Como es la terapia?</h2>
-                <p>La Quiropraxia Inka puede tratar varios padecimientos los que incluyen:
-                    la escoliosis, hernias discales, listésis, ciaticas, lumbalgias, dorsalgias, cervicalgias,
-                    braquialgias, contracturas dolorosas, etc., y sus efectos nocivos sobre el organismo pueden ser
-                    solucionados aun desde la primera sesión, sin dolor, sin importar edad, o problemas
-                    osteodegenerativos.
+                <p>La terapia consiste en manipulaciones y estiramientos los cuales nos ayudan a relajarnos. Devuelve
+                    a la persona la salud perdida, desapareciendo el dolor y sintomas, devolviendo la libertad de
+                    movimiento, recuperando el ánimo, la alegría perdida. La terapia nos permite realizar tres
+                    movimientos en uno. Manipulación de músculos, tendones y huesos y es una terapia que se compone
+                    generalmente de manipulaciones óseas.
                 </p>
             </div>
 
             <div class="questionBox">
                 <h2>¿Cuántas sesiones son necesarias para ver mejoria?</h2>
-                <p>Sera evaluado y tomando en cuenta su sintomatologia, historial clinico, asi como
-                    cualquier diagnostico y estudio clinico, ya tenido. Lo que se hara, a conciencia y profesionalismo y
-                    se le informara en que consistirá su tratamiento a seguir y el número de sesiones recomendadas para
-                    tratar su problema exitosamente. Y si asi lo desea, se iniciará su Terapia.
+                <p>La terapia se distingue de otras terapéuticas, porque requiere pocas sesiones para
+                    solucionar el problema musculo esquelético. Por lo regular cada paciente es diferente depende mucho
+                    de su estado físico y salud. Por lo comun dos terapias son suficientes para notar cambios. En
+                    ocasiones desde la primera sesión el paciente puede experimentar una mejoría inmediata.
                 </p>
             </div>
 
@@ -102,20 +119,6 @@
 
     </section>
 
-    <div id="terapias">
-        <h1>Testimonios.</h1>
-        <div id="videoCont">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pN8U902AzP8" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OOFmaObHxf0" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p id="youtubePromo">Para ver mas testimonios visita mi pagina de YouTube!</p>
-        <img id="youtubeIcon" src="./styles/images/youtube (1).png" alt="">
-    </div>
 
     <div id="gallery">
         <h1>Fotos</h1>
@@ -145,36 +148,36 @@
                     <input name="name" type="text" class="name" placeholder="Su Nombre...">
                 </label>
 
-                    <label>
-                        Email
-                        <input name="email" type="email" class="email" placeholder="Su Correo Electronico...">
-                    </label>
-
-                </div>
-
                 <label>
-                        Telefono
-                        <input name="phone" type="text" class="number" placeholder="Su Telefono...">
-                    </label>
+                    Email
+                    <input name="email" type="email" class="email" placeholder="Su Correo Electronico...">
+                </label>
 
-                    <label>
-                            Mensaje
-                            <textarea name="message" id="message"></textarea>
-                    </label>
+            </div>
 
-                    <div class="status">
+            <label>
+                Telefono
+                <input name="phone" type="text" class="number" placeholder="Su Telefono...">
+            </label>
 
-                    </div>
-                    
-                    <button type="submit" class="submit">Mandar</button>
-        
-            </form>
+            <label>
+                Mensaje
+                <textarea name="message" id="message"></textarea>
+            </label>
+
+            <div class="status">
+
+            </div>
+
+            <button type="submit" class="submit">Mandar</button>
+
+        </form>
 
     </div>
 
-    
 
-    
+
+
 </body>
 
 </html>

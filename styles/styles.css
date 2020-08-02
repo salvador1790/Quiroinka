@@ -1,6 +1,7 @@
 body,html{
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -52,8 +53,8 @@ body,html{
 
 #aboutSection{
     background-color: #e6ab00;
-    height: 200px;
-    padding: 50px 80px;
+    height: 300px;
+    padding-top: 60px;
 }
 
 #image2{
@@ -63,7 +64,25 @@ body,html{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
 
+}
+
+#benefits{
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+#benefits  h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #197BCD;
+    font-size: 40px;
+    margin-top: 0;
 }
 
 .question1{
@@ -88,7 +107,7 @@ body,html{
 }
 
 #questions{
-    height: 800px;
+    height: 730px;
 }
 
 #questions h1{
@@ -117,6 +136,11 @@ body,html{
     width: 440px;
     background-color: #d3d3d3;
     margin-right: 10px;
+}
+
+.questionBox h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .questionCont{
@@ -170,6 +194,7 @@ body,html{
     justify-content: space-evenly;
 }
 
+
 #youtubePromo{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -187,6 +212,7 @@ body,html{
     height: 950px;
     padding: 20px;
     text-align: center;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 #gallery  h1{
@@ -250,6 +276,7 @@ input,textarea{
     resize: none;
 }
 
+
 input{
     height: 30px;
     margin-bottom: 20px;
@@ -272,6 +299,7 @@ form{
     margin-top: 20px;
     display: block;
     margin: auto;
+    margin-top: 20px;
 }
 
 #message{
@@ -286,4 +314,70 @@ form{
 
 .number{
     width: 740px;
+}
+
+#flexCont{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+#flexCont p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #197BCD;
+}
+
+@media only screen and (max-width:1108px){
+    #gallery{
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .questionCont{
+        flex-direction: column;
+        width: 440px;
+        margin: auto;
+        
+    }
+    #questions{
+        height: 1210px;
+    }
+
+    .questionBox{
+        margin-bottom: 10px;
+    }
+
+    #introQuestions{
+        flex-direction: column;
+    }
+
+    #introQuestions h1{
+        font-size: 40px;
+        width: 400px;
+        margin: auto;
+    }
+
+    #introQuestions h3{
+        width: 400px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 30px;
+        margin: 20px auto;
+
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    #aboutQuiro{
+        width: 700px;
+    }
+
+    .question1{
+        font-size: 30px;
+    }
+    
 }
