@@ -62,6 +62,6 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function() {
-    var scrolledY = $(window).scrollBottom();
+    var scrolledY = $(window).scrollTop();
     $('#header').css('background-position', 'left ' + ((scrolledY)) + 'px');
   });
