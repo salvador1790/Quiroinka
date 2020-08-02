@@ -60,3 +60,8 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+  $(window).scroll(function() {
+    var scrolledY = $(window).scrollBottom();
+    $('#header').css('background-position', 'left ' + ((scrolledY)) + 'px');
+  });
