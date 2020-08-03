@@ -495,4 +495,17 @@ form{
     #introQuestions{
         width: 380px;
     }
+
+    #introQuestions h3{
+        width: 350px;
+    }
+
+    #gallery{
+        padding: 0;
+        height: 2400px;
+    }
+
+    #gallery img{
+        width: 350px;
+    }
 }
