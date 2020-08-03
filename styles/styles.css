@@ -2,6 +2,8 @@ body,html{
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #dropdown{
@@ -16,7 +18,11 @@ body,html{
     top: 0;
     width: 100%;
     z-index: 1;
-    transition: .5s;
+    transition: .2s;
+}
+
+.navbarExtended{
+    height: 200px;
 }
 
 .mobileNavContentHidden{
@@ -26,7 +32,7 @@ display: none;
 
 .mobileNavContentOn{
     display: block;
-    transition: .5s;
+    transition: 1s;
 }
 
 #mobileNavContent a{
@@ -396,6 +402,7 @@ form{
 
     #aboutQuiro{
         width: 700px;
+        text-align: justify;
     }
 
     .question1{
@@ -412,6 +419,20 @@ form{
     #gallery{
         height: 1000px;
     }
+
+    #benefits{
+        width: 500px;
+        height: 250px;
+    }
+
+    .benefitIcons{
+        height: 80px;
+        width: 80px;
+    }
+
+    #flexCont{
+        width: 500px;
+    }
 }
 
 @media only screen and (max-width:730px){
@@ -421,5 +442,43 @@ form{
 
     #dropdown{
         display: block;
+    }
+}
+
+@media only screen and (max-width: 710px){
+    #aboutQuiro{
+        width: 420px;
+    }
+    
+    #aboutSection{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    #gallery{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 2200px;
+    }
+
+    #gallery img{
+        width: 400px;
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    #benefits{
+        width: 450px;
+    }
+
+    #flexCont{
+        width: 450px;
+    }
+
+    #logoCont{
+        width: 300px;
     }
 }

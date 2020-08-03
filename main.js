@@ -65,7 +65,7 @@ $(document).ready(function(){
 
  $(document).ready(function(){
      $("#dropdown").click(function(){
-        $(".navbar").css("height","200");
+        $(".navbar").toggleClass("navbarExtended");
         $(".mobileNavContentHidden").toggleClass("mobileNavContentOn")
      })
  })
