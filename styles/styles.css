@@ -216,25 +216,6 @@ display: none;
     margin-top: 0;
 }
 
-#videoCont{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-#youtubePromo{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-#youtubeIcon{
-    display: block;
-    margin: auto;
-    height: 100px;
-}
-
 #gallery{
     margin: 20px 60px;
     height: 950px;
@@ -253,7 +234,6 @@ display: none;
 #gallery img{
     height: 200px;
     padding: 5px;
-    filter: grayscale(100%);
     transition: .5s;
 }
 
@@ -509,7 +489,7 @@ form{
 
 @media only screen and (max-width:500px){
     #aboutQuiro{
-        width: 380px;
+        width: 350px;
     }
 
     #aboutSection{
@@ -551,6 +531,22 @@ form{
 
     input{
         margin: 0;
+    }
+
+    .questionBox p {
+        width: 350px;
+    }
+
+    .questionBox{
+       height: 250px;
+    }
+
+    #questions{
+        height: 1350px;
+    }
+
+    #introQuestions h1{
+        width: 350px;
     }
 
 }
