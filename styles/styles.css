@@ -264,10 +264,10 @@ display: none;
 
 #contact{
     height: 500px;
-    background-image: url("./images/brown-plant-and-flowers-1924867.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #424d58;
     padding: 10px;
     display: block;
     text-align: center;
@@ -508,4 +508,25 @@ form{
     #gallery img{
         width: 350px;
     }
+
+    .alignbox{
+        flex-direction: column;
+    }
+
+    .number, #message{
+        width: 350px;
+    }
+
+    #contact{
+        height: 500px;
+    }
+
+    .submit{
+        width: 300px;
+    }
+
+    input{
+        margin: 0;
+    }
+
 }
