@@ -435,6 +435,30 @@ form{
     }
 }
 
+@media only screen and(max-width: 770px){
+    .alignbox{
+        flex-direction: column;
+    }
+
+    .number, #message{
+        width: 350px;
+    }
+
+    #contact{
+        height: 500px;
+    }
+
+    .submit{
+        width: 300px;
+    }
+
+    input{
+        margin: 0;
+    }
+
+
+}
+
 @media only screen and (max-width:730px){
     .navContent{
         display: none;
