@@ -61,4 +61,11 @@ $(document).ready(function(){
     });
   });
 
- 
+ //Dropdown Menu
+
+ $(document).ready(function(){
+     $("#dropdown").click(function(){
+        $(".navbar").css("height","200");
+        $(".mobileNavContentHidden").toggleClass("mobileNavContentOn")
+     })
+ })

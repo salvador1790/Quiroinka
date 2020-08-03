@@ -4,6 +4,11 @@ body,html{
     scroll-behavior: smooth;
 }
 
+#dropdown{
+    height: 50px;
+    display: none;
+}
+
 .navbar{
     height: 50px;
     background-color: #e1ad01;
@@ -11,6 +16,25 @@ body,html{
     top: 0;
     width: 100%;
     z-index: 1;
+    transition: .5s;
+}
+
+.mobileNavContentHidden{
+display: none;
+
+}
+
+.mobileNavContentOn{
+    display: block;
+    transition: .5s;
+}
+
+#mobileNavContent a{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 15px;
 }
 
 .navContent{
@@ -238,7 +262,6 @@ body,html{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     padding: 10px;
     display: block;
     text-align: center;
@@ -350,6 +373,7 @@ form{
 
     #introQuestions{
         flex-direction: column;
+        width: 500px;
     }
 
     #introQuestions h1{
@@ -378,4 +402,24 @@ form{
         font-size: 30px;
     }
     
+}
+
+@media only screen and (max-width:843px){
+    #gallery img{
+        height:150px;
+    }
+
+    #gallery{
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width:730px){
+    .navContent{
+        display: none;
+    }
+
+    #dropdown{
+        display: block;
+    }
 }
