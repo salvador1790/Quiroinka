@@ -482,3 +482,17 @@ form{
         width: 300px;
     }
 }
+
+@media only screen and (max-width:500px){
+    #aboutQuiro{
+        width: 380px;
+    }
+
+    #aboutSection{
+        height: 500px;
+    }
+
+    #introQuestions{
+        width: 380px;
+    }
+}
