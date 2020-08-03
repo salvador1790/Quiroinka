@@ -435,7 +435,7 @@ form{
     }
 }
 
-@media only screen and(max-width: 770px){
+@media only screen and (max-width: 770px){
     .alignbox{
         flex-direction: column;
     }
